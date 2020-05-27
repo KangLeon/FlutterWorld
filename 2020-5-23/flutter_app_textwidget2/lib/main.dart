@@ -7,15 +7,50 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("您好"),
-          elevation: 10.0,
-        ),
-        body: Hello(),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: Home(),
       theme: ThemeData(
         primarySwatch: Colors.yellow,
+      ),
+    );
+  }
+}
+
+class Home extends StatelessWidget {
+  Widget _listItemBuilder(BuildContext context,int index){
+    return Container(
+      color: Colors.white,
+      margin: EdgeInsets.all(8.0),
+      child: Column(
+        children: <Widget>[
+          Image.network(posts[index].imageURL),
+          SizedBox(height: 16.0),
+          Text(
+            posts[index].title,
+            style: Theme.of(context).textTheme.title,
+          ),
+          Text(
+            posts[index].author,
+            style: Theme.of(context).textTheme.subtitle1,
+          ),
+          SizedBox(height: 16.0,)
+        ],
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Scaffold(
+      backgroundColor: Colors.grey[100],
+      appBar: AppBar(
+        title: Text("NBA球星"),
+        elevation: 0.0,
+      ),
+      body: ListView.builder(
+        itemCount: posts.length,
+        itemBuilder: _listItemBuilder,
       ),
     );
   }
