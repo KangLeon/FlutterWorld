@@ -1,4 +1,4 @@
-package com.example.flutter_project_ui_construction
+package com.jy.flutterappui
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,6 +1,6 @@
-# flutter_project_ui_construction
+# flutterappui
 
-A new Flutter project.
+A new Flutter application.
 
 ## Getting Started
 
