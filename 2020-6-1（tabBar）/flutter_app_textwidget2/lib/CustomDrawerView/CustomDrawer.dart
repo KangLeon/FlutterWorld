@@ -13,7 +13,7 @@ class CustomDrawer extends StatelessWidget{
             accountName: Text('JY',style: TextStyle(fontWeight: FontWeight.bold),),
             accountEmail: Text('kangleonjy@gmail.com'),
             currentAccountPicture: CircleAvatar(
-              backgroundImage: NetworkImage('https://avatars2.githubusercontent.com/u/22131650?s=460&u=588f351b548ed5a0a1c4ad5ce9eaa8b20941f973&v=4'),
+              backgroundImage: NetworkImage('https://avatars2.githubusercontent.com/u/22131650?s=400&u=588f351b548ed5a0a1c4ad5ce9eaa8b20941f973&v=4'),
             ),
             decoration: BoxDecoration(
               color: Colors.yellow[400],
