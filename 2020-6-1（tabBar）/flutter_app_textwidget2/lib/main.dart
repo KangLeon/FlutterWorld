@@ -5,6 +5,8 @@ import './CustomDrawerView/CustomDrawer.dart';
 import './CustomListView/ListViewCustom.dart';
 import './CustomNavigationBar/CustomNavigationBar.dart';
 import './CustomListView/ListViewCustom.dart';
+import './BasicWidget/BasicWidget.dart';
+import './BasicWidget/BasicTextWidget.dart';
 
 void main()=>runApp(MyApp());
 
@@ -66,7 +68,7 @@ class Home extends StatelessWidget {
         body: TabBarView(
           children: <Widget>[
             ListViewCustom(),
-            Icon(Icons.change_history,size: 128.0,color: Colors.black12,),
+            BasicTextWidget(),
             Icon(Icons.directions_bike,size: 128.0,color: Colors.black12,),
           ],
         ),
