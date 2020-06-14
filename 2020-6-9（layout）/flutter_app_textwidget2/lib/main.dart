@@ -10,6 +10,7 @@ import './BasicWidget/BasicTextWidget.dart';
 import './BasicWidget/BasicContainerWidget.dart';
 import './LayoutWidget/LayoutWidget.dart';
 import './ViewWidget/ViewWidget.dart';
+import './SilverWidget/SilverWidget.dart';
 
 void main()=>runApp(MyApp());
 
@@ -74,7 +75,7 @@ class Home extends StatelessWidget {
             ListViewCustom(),
             BasiccontainerWidget(),
             LayoutWidget(),
-            ViewWidget(),
+            SilverWidget(),
           ],
         ),
         drawer: CustomDrawer(),
