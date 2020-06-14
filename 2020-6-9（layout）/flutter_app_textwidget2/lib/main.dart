@@ -9,6 +9,7 @@ import './BasicWidget/BasicWidget.dart';
 import './BasicWidget/BasicTextWidget.dart';
 import './BasicWidget/BasicContainerWidget.dart';
 import './LayoutWidget/LayoutWidget.dart';
+import './ViewWidget/ViewWidget.dart';
 
 void main()=>runApp(MyApp());
 
@@ -33,7 +34,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
         backgroundColor: Colors.grey[100],
         appBar: AppBar(
@@ -64,6 +65,7 @@ class Home extends StatelessWidget {
               Tab(icon: Icon(Icons.local_florist)),
               Tab(icon: Icon(Icons.change_history)),
               Tab(icon: Icon(Icons.directions_bike)),
+              Tab(icon: Icon(Icons.view_quilt)),
             ],
           ),
         ),
@@ -72,6 +74,7 @@ class Home extends StatelessWidget {
             ListViewCustom(),
             BasiccontainerWidget(),
             LayoutWidget(),
+            ViewWidget(),
           ],
         ),
         drawer: CustomDrawer(),

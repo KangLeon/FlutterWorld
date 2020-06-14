@@ -4,12 +4,21 @@ class LayoutWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-//      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: <Widget>[
-        StackWidget(),
-      ],
+    return Container(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          ConstrainedBox(
+            constraints: BoxConstraints(
+              minHeight: 200,
+              maxWidth: 200,
+            ),
+            child: Container(
+              color: Colors.blueAccent,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
