@@ -11,8 +11,11 @@ class ListViewCustom extends StatelessWidget {
           Column(
             children: <Widget>[
               AspectRatio(
-//                aspectRatio: 16/9,
-                child: Image.network(posts[index].imageURL),
+                aspectRatio: 16/9,
+                child: Image.network(
+                  posts[index].imageURL,
+                  fit: BoxFit.cover,
+                ),
               ),
               SizedBox(height: 16.0),
               Text(
