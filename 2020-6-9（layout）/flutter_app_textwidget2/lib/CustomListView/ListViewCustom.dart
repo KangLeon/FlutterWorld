@@ -6,21 +6,43 @@ class ListViewCustom extends StatelessWidget {
     return Container(
       color: Colors.white,
       margin: EdgeInsets.all(8.0),
-      child: Column(
+      child: Stack(
         children: <Widget>[
-          Image.network(posts[index].imageURL),
-          SizedBox(height: 16.0),
-          Text(
-            posts[index].title,
-            style: Theme.of(context).textTheme.title,
+          Column(
+            children: <Widget>[
+              AspectRatio(
+//                aspectRatio: 16/9,
+                child: Image.network(posts[index].imageURL),
+              ),
+              SizedBox(height: 16.0),
+              Text(
+                posts[index].title,
+                style: Theme.of(context).textTheme.title,
+              ),
+              Text(
+                posts[index].author,
+                style: Theme.of(context).textTheme.subtitle1,
+              ),
+              SizedBox(height: 16.0,)
+            ],
           ),
-          Text(
-            posts[index].author,
-            style: Theme.of(context).textTheme.subtitle1,
+          Positioned.fill(
+            child: Material(
+              color: Colors.transparent,
+              //添加溅墨动画
+              child: InkWell(
+                splashColor: Colors.white.withOpacity(0.3),
+                highlightColor: Colors.white.withOpacity(0.1),
+                onTap: (){
+                  print('Tap');
+                },
+              ),
+            ),
           ),
-          SizedBox(height: 16.0,)
         ],
       ),
+
+
     );
   }
 

@@ -11,6 +11,7 @@ import './BasicWidget/BasicContainerWidget.dart';
 import './LayoutWidget/LayoutWidget.dart';
 import './ViewWidget/ViewWidget.dart';
 import './SilverWidget/SilverWidget.dart';
+import './NavigatorWidget/NavigatorWidget.dart';
 
 void main()=>runApp(MyApp());
 
@@ -20,7 +21,11 @@ class MyApp extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
       debugShowCheckedModeBanner: false,//debug小图标移除
-      home: Home(),
+      initialRoute: '/',
+      routes: {
+        '/':(context) => Home(),
+        '/about':(context) => PageWidget(title:'About'),
+      },
       theme: ThemeData(
         primarySwatch: Colors.yellow,
         highlightColor: Color.fromRGBO(255, 255, 255, 0.5),
