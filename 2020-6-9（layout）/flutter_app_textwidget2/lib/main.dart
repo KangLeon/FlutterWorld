@@ -13,7 +13,7 @@ import './ViewWidget/ViewWidget.dart';
 import './SilverWidget/SilverWidget.dart';
 import './NavigatorWidget/NavigatorWidget.dart';
 import './FormWidget/Formwidget.dart';
-
+import './MaterialComponents/MaterialComponents.dart';
 
 void main()=>runApp(MyApp());
 
@@ -23,11 +23,12 @@ class MyApp extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
       debugShowCheckedModeBanner: false,//debug小图标移除
-      initialRoute: '/form',
+      initialRoute: '/mdc',
       routes: {
         '/':(context) => Home(),
         '/about':(context) => PageWidget(title:'About'),
         '/form':(context) => FormWidget(),
+        '/mdc':(context) => Materialcomponents(),
       },
       theme: ThemeData(
         primarySwatch: Colors.yellow,
