@@ -13,6 +13,10 @@ class APP extends StatelessWidget {
         appBar: AppBar(
           title: Text('FlutterDemo'),
         ),
+        body: MyWidget(),
+      ),
+      theme: ThemeData(
+        primaryColor: Colors.red,
       ),
     );
   }
