@@ -5,7 +5,7 @@ void main () => runApp(APP());
 
 //stateful 有状态 stateless无状态
 
-class APP extends StatelessWidget {
+class APP extends StatelessWidget {fl
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
