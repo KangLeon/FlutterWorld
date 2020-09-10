@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app_demo/model/car.dart';
 
 void main() {
-  runApp(App());
+  runApp(MyApp());
 }
 
-class App extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Home(),
       theme: ThemeData(
         primaryColor: Colors.blue
@@ -20,7 +21,29 @@ class App extends StatelessWidget {
 class Home extends StatelessWidget {
 
   Widget _itemForRow(BuildContext context, int index){
-    return Text(datas[index].name);
+    return Container(
+      color: Colors.white,
+      margin: EdgeInsets.all(10),
+      child: Column(
+        children: <Widget>[
+          Container(
+            child: Image.network(datas[index].imageUrl),
+            margin: EdgeInsets.fromLTRB(0, 0, 0, 10),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            datas[index].name,
+            style: TextStyle(
+              fontWeight: FontWeight.w800,
+              fontSize: 18.0,
+              fontStyle: FontStyle.values[1],
+            ),
+          ),
+        ],
+      ),
+    );
   }
 
   @override
