@@ -21,7 +21,6 @@ class TextDemo extends StatelessWidget {
   }
 }
 
-
 class RichTextDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
