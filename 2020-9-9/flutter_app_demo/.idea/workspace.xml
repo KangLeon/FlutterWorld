@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6af51c05-604d-46af-aafe-2e6071b0b8df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../2020-5-31(导航栏)/flutter_app_textwidget2/ios/Flutter/.App.framework.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-5-31(导航栏)/flutter_app_textwidget2/ios/Flutter/.Flutter.framework.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-6-9（layout）/flutter_app_textwidget2/ios/Flutter/.App.framework.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-6-9（layout）/flutter_app_textwidget2/ios/Flutter/.Flutter.framework.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-8-30/flutter_app_wechat/android/.build.gradle.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-8-30/flutter_app_wechat/android/.settings.gradle.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-8-30/flutter_app_wechat/android/gradle/wrapper/.gradle-wrapper.properties.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-8-30/flutter_app_wechat/ios/Flutter/.AppFrameworkInfo.plist.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-8-30/flutter_app_wechat/ios/Flutter/.Flutter.framework.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator/ios/Flutter/.App.framework.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator/ios/Flutter/.Flutter.framework.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator2/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator2/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator2/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator2/ios/Flutter/.App.framework.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator2/ios/Flutter/.Flutter.framework.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator2/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-9（逻辑）/flutter_app_demo/ios/Flutter/.App.framework.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-9（逻辑）/flutter_app_demo/ios/Flutter/.Flutter.framework.icloud" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1hHGUOY7asJsTw3R5az64L2aU63" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6af51c05-604d-46af-aafe-2e6071b0b8df" name="Default Changelist" comment="" />
+      <created>1599660618869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599660618869</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1611" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599751065247">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1611" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1599751065247" />
+    <state width="1187" height="381" key="GridCell.Tab.0.bottom" timestamp="1599750920470">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1187" height="381" key="GridCell.Tab.0.bottom/0.23.2560.1335@0.23.2560.1335" timestamp="1599750608042" />
+    <state width="1187" height="381" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1599750920470" />
+    <state width="1187" height="759" key="GridCell.Tab.0.bottom/0.23.2560.1338@0.23.2560.1338" timestamp="1599664794121" />
+    <state width="1187" height="343" key="GridCell.Tab.0.bottom/0.23.2560.1340@0.23.2560.1340" timestamp="1599663199518" />
+    <state width="1187" height="381" key="GridCell.Tab.0.center" timestamp="1599750920470">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1187" height="381" key="GridCell.Tab.0.center/0.23.2560.1335@0.23.2560.1335" timestamp="1599750608041" />
+    <state width="1187" height="381" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1599750920470" />
+    <state width="1187" height="759" key="GridCell.Tab.0.center/0.23.2560.1338@0.23.2560.1338" timestamp="1599664794120" />
+    <state width="1187" height="343" key="GridCell.Tab.0.center/0.23.2560.1340@0.23.2560.1340" timestamp="1599663199518" />
+    <state width="1187" height="381" key="GridCell.Tab.0.left" timestamp="1599750920469">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1187" height="381" key="GridCell.Tab.0.left/0.23.2560.1335@0.23.2560.1335" timestamp="1599750608041" />
+    <state width="1187" height="381" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1599750920469" />
+    <state width="1187" height="759" key="GridCell.Tab.0.left/0.23.2560.1338@0.23.2560.1338" timestamp="1599664794120" />
+    <state width="1187" height="343" key="GridCell.Tab.0.left/0.23.2560.1340@0.23.2560.1340" timestamp="1599663199517" />
+    <state width="1187" height="381" key="GridCell.Tab.0.right" timestamp="1599750920470">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1187" height="381" key="GridCell.Tab.0.right/0.23.2560.1335@0.23.2560.1335" timestamp="1599750608041" />
+    <state width="1187" height="381" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1599750920470" />
+    <state width="1187" height="759" key="GridCell.Tab.0.right/0.23.2560.1338@0.23.2560.1338" timestamp="1599664794120" />
+    <state width="1187" height="343" key="GridCell.Tab.0.right/0.23.2560.1340@0.23.2560.1340" timestamp="1599663199518" />
+    <state x="1197" y="332" key="SettingsEditor" timestamp="1599664218046">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1197" y="332" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1599664218046" />
+    <state x="1588" y="326" width="670" height="676" key="search.everywhere.popup" timestamp="1599748367764">
+      <screen x="0" y="23" width="2560" height="1335" />
+    </state>
+    <state x="1588" y="326" width="670" height="676" key="search.everywhere.popup/0.23.2560.1335@0.23.2560.1335" timestamp="1599748367764" />
+    <state x="1588" y="327" width="670" height="676" key="search.everywhere.popup/0.23.2560.1338@0.23.2560.1338" timestamp="1599662561951" />
+    <state x="1588" y="327" width="670" height="678" key="search.everywhere.popup/0.23.2560.1340@0.23.2560.1340" timestamp="1599662901469" />
+  </component>
+</project>

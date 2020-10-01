@@ -6,7 +6,7 @@ class PostShowWidget extends StatelessWidget {
   final Post post;
 
   PostShowWidget({
-      @required this.post,
+    this.post,
   });
 
   @override
