@@ -17,25 +17,35 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
-          children: [
-            Container(
-              height: 160,
-              child: Swiper(
+      body: MediaQuery.removePadding(
+        removeTop: true,
+          context: context,
+          child: ListView(
+            children: [
+              Container(
+                height: 160,
+                child: Swiper(
                   itemCount: 3,
-                autoplay: true,
-                itemBuilder: (BuildContext context,int index){
+                  autoplay: true,
+                  itemBuilder: (BuildContext context,int index){
                     return Image.network(
                       _imageUrls[index],
                       fit: BoxFit.fill,
                     );
-                },
-                pagination: SwiperPagination(),
+                  },
+                  pagination: SwiperPagination(),
+                ),
               ),
-            )
-          ],
-        )
+              Container(
+                height: 800,
+                child: ListTile(
+                  title: Text(
+                    '哈哈',
+                  ),
+                ),
+              )
+            ],
+          ),
       ),
     );
   }
