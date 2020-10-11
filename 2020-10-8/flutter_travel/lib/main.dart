@@ -18,7 +18,8 @@ class _MyAppState extends State<MyApp> {
 
   Future<CommonModel> fetchpst() async{
     final response = await http.get('http://www.devio.org/io/flutter_app/json/test_common_model.json');
-    final result = jsonDecode(response.body);
+    Utf8Decoder utf8decoder = Utf8Decoder();
+    final result = json.decode(utf8decoder.convert(response.bodyBytes));
     return CommonModel.fromJson(result);
   }
 
