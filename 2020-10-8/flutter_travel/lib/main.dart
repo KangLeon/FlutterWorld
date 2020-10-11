@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_travel/navigator/tab_navigator.dart';
 import 'package:http/http.dart' as http;
 
+const CITY_NAMES = ['背景','上海','广州','深圳','杭州','苏州','成都','武汉','郑州','洛阳','厦门','青岛','拉萨'];
+
 void main() {
   runApp(MyApp());
 }
@@ -14,14 +16,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String showResult = '';
-
-  Future<CommonModel> fetchpst() async{
-    final response = await http.get('http://www.devio.org/io/flutter_app/json/test_common_model.json');
-    Utf8Decoder utf8decoder = Utf8Decoder();
-    final result = json.decode(utf8decoder.convert(response.bodyBytes));
-    return CommonModel.fromJson(result);
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -31,55 +25,34 @@ class _MyAppState extends State<MyApp> {
           title: Text('Future与FutureBuilfer实用技巧'),
         ),
         // ignore: missing_return
-        body: FutureBuilder<CommonModel>(
-            future: fetchpst(),
-            // ignore: missing_return
-            builder: (BuildContext context, AsyncSnapshot<CommonModel> snapshot){
-          switch(snapshot.connectionState){
-            case ConnectionState.none:
-              return Text('In put a URL to start');
-            case ConnectionState.waiting:
-              return Center(child: CircularProgressIndicator(),);
-            case ConnectionState.active:
-              return Text('');
-            case ConnectionState.done:
-              if(snapshot.hasError){
-                return Text(
-                  '${snapshot.error}',
-                  style: TextStyle(color: Colors.red),
-                );
-              }else{
-                return Column(children: [
-                  Text('icon:${snapshot.data.icon}'),
-                  Text('statusBarColor:${snapshot.data.statusBarColor}'),
-                  Text('title:${snapshot.data.title}'),
-                  Text('url:${snapshot.data.url}'),
-                ]);
-              }
-          }
-        }),
+        body: ListView(
+          children: _buildList(),
+        ),
+      ),
+    );
+  }
+
+  List<Widget> _buildList() {
+    return CITY_NAMES.map((city) => _item(city)).toList();
+  }
+
+  Widget _item(city) {
+    return Container(
+      height: 80,
+      margin: EdgeInsets.only(bottom: 5),
+      alignment: Alignment.center,
+      decoration: BoxDecoration(
+        color: Colors.teal,
+      ),
+      child: Text(
+        city,
+        style: TextStyle(
+          color: Colors.white,
+          fontSize: 20,
+        ),
       ),
     );
   }
 }
 
-class CommonModel{
-  final String icon;
-  final String title;
-  final String url;
-  final String statusBarColor;
-  final bool hideAppBar;
-
-  CommonModel({this.icon,this.title,this.url,this.statusBarColor,this.hideAppBar});
-
-  factory CommonModel.fromJson(Map<String,dynamic>json){
-    return CommonModel(
-      icon: json['icon'],
-      title: json['title'],
-      url: json['url'],
-      statusBarColor: json['statusBarColor'],
-      hideAppBar: json['hideAppBar'],
-    );
-  }
-}
 
