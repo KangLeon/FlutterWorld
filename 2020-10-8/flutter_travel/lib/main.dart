@@ -28,24 +28,55 @@ class _MyAppState extends State<MyApp> {
 
   List<String> cityNames = ['北京','上海','广州','深圳','杭州','苏州','成都','武汉','郑州','洛阳','厦门','青岛','拉萨'];
 
+  ScrollController _scrollController = ScrollController();
+
+  @override
+  void initState() {
+    _scrollController.addListener(() {
+      if(_scrollController.position.pixels==_scrollController.position.maxScrollExtent){
+        _loadData();
+      }
+    });
+    super.initState();
+  }
+
+  _loadData() async {
+    print("上拉加载");
+    await Future.delayed(Duration(milliseconds: 200));
+    setState(() {
+      List<String> list = List<String>.from(cityNames);
+      list.addAll(cityNames);
+      cityNames=list;
+    });
+  }
+
+  Future<Null> _handleRefresh() async {
+    await Future.delayed(Duration(seconds: 2));
+    setState(() {
+      cityNames = cityNames.reversed.toList();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('网格布局'),
+          title: Text('高级功能列表下拉刷新与上蜡加载更多功能实现'),
         ),
         // ignore: missing_return
-        body: GridView.count(
-            crossAxisCount: 2,
-          children: _buildList(),
-        )
+        body: RefreshIndicator(
+          child: ListView(
+            children: _buildList(),
+          controller: _scrollController,),
+          onRefresh: _handleRefresh,
+        ),
       ),
     );
   }
 
   List<Widget> _buildList() {
-    return CITY_NAMES.map((city) => _item(city)).toList();
+    return cityNames.map((city) => _item(city)).toList();
   }
 
   Widget _item(String city) {
