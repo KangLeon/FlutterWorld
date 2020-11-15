@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f80583f4-268e-459b-b0ee-00f8280b806d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/FlutterHybridAndroid/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/FlutterHybridAndroid/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/FlutterHybridAndroid/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/FlutterHybridAndroid/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/FlutterHybridAndroid/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2020-10-8(旅行)/flutter_hybrid/FlutterHybridAndroid/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-8-30/flutter_app_wechat/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-8-30/flutter_app_wechat/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-8-30/flutter_app_wechat/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-8-30/flutter_app_wechat/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator/android/.build.gradle.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator/android/.settings.gradle.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator/android/gradle/wrapper/.gradle-wrapper.properties.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator/ios/Flutter/.AppFrameworkInfo.plist.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator2/android/.build.gradle.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator2/android/.settings.gradle.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator2/android/gradle/wrapper/.gradle-wrapper.properties.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2020-9-12（路由）/flutter_app_navigator2/ios/Flutter/.AppFrameworkInfo.plist.icloud" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1k8k98Z8ymezQ7FgJkvWFYKAMAn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f80583f4-268e-459b-b0ee-00f8280b806d" name="Default Changelist" comment="" />
+      <created>1605089451650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605089451650</updated>
+      <workItem from="1605091852778" duration="640000" />
+      <workItem from="1605093309263" duration="481000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="377" key="GridCell.Tab.0.bottom" timestamp="1605093830085">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1238" height="377" key="GridCell.Tab.0.bottom/0.23.1280.722@0.23.1280.722" timestamp="1605093830085" />
+    <state width="1238" height="318" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1605092493414" />
+    <state width="1238" height="377" key="GridCell.Tab.0.center" timestamp="1605093830083">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1238" height="377" key="GridCell.Tab.0.center/0.23.1280.722@0.23.1280.722" timestamp="1605093830083" />
+    <state width="1238" height="318" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1605092493413" />
+    <state width="1238" height="377" key="GridCell.Tab.0.left" timestamp="1605093830083">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1238" height="377" key="GridCell.Tab.0.left/0.23.1280.722@0.23.1280.722" timestamp="1605093830083" />
+    <state width="1238" height="318" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1605092493412" />
+    <state width="1238" height="377" key="GridCell.Tab.0.right" timestamp="1605093830084">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1238" height="377" key="GridCell.Tab.0.right/0.23.1280.722@0.23.1280.722" timestamp="1605093830084" />
+    <state width="1238" height="318" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1605092493413" />
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlutterHybridAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/FlutterHybridAndroid.iml" group="FlutterHybridAndroid" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="FlutterHybridAndroid/app" />
+    </modules>
+  </component>
+</project>

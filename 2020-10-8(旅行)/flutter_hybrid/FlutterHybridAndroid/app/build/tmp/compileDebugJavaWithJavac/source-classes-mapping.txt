@@ -1,0 +1,4 @@
+com/jy/flutterhybridandroid/MainActivity.java
+ com.jy.flutterhybridandroid.MainActivity
+com/jy/flutterhybridandroid/BuildConfig.java
+ com.jy.flutterhybridandroid.BuildConfig
