@@ -1,4 +1,0 @@
-#Wed Nov 11 18:19:09 CST 2020
-base.0=/Users/jy/Desktop/MyResposity/FlutterWorld/2020-11-11/flutter_app_test/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
