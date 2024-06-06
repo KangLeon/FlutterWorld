@@ -1,3 +1,11 @@
+/*
+ * @Author: JY 397879704@qq.com
+ * @Date: 2024-06-05 12:06:06
+ * @LastEditors: JY 397879704@qq.com
+ * @LastEditTime: 2024-06-06 15:41:49
+ * @FilePath: /flutter_application_1/lib/main.dart
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import 'package:flutter/material.dart';
 
 void main() {
@@ -55,18 +63,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  String tips = "";
 
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
-  }
+  void _incrementCounter() {}
 
   @override
   Widget build(BuildContext context) {
@@ -89,20 +88,19 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: Container(
-          decoration: const BoxDecoration(color: Colors.grey),
-          child: const Text(
-            "声明式布局",
-            style: TextStyle(
-                fontSize: 20, fontWeight: FontWeight.w600, color: Colors.red),
-          ),
-        ),
+        child: Text(tips),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: _updateTips,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
+  }
+
+  void _updateTips() {
+    setState(() {
+      tips = "快速上手flutter";
+    });
   }
 }
