@@ -2,7 +2,7 @@
  * @Author: JY 397879704@qq.com
  * @Date: 2024-06-05 12:06:06
  * @LastEditors: JY 397879704@qq.com
- * @LastEditTime: 2024-06-06 15:41:49
+ * @LastEditTime: 2024-06-06 16:04:59
  * @FilePath: /flutter_application_1/lib/main.dart
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -64,6 +64,9 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   String tips = "";
+  bool _toggle = true;
+
+  get _dyWidget => _toggle ? const Text("Widget1") : const Text("Widget");
 
   void _incrementCounter() {}
 
@@ -88,10 +91,10 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: Text(tips),
+        child: _dyWidget,
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _updateTips,
+        onPressed: _updateWidget,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
@@ -101,6 +104,12 @@ class _MyHomePageState extends State<MyHomePage> {
   void _updateTips() {
     setState(() {
       tips = "快速上手flutter";
+    });
+  }
+
+  void _updateWidget() {
+    setState(() {
+      _toggle = !_toggle;
     });
   }
 }
