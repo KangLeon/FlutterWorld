@@ -2,7 +2,7 @@
  * @Author: JY 397879704@qq.com
  * @Date: 2024-06-05 12:06:06
  * @LastEditors: JY 397879704@qq.com
- * @LastEditTime: 2024-06-06 16:12:48
+ * @LastEditTime: 2024-06-06 16:17:15
  * @FilePath: /flutter_application_1/lib/main.dart
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -63,6 +63,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  int _count = 0;
   String tips = "";
   bool _toggle = true;
 
@@ -87,7 +88,14 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: _listView,
+        child: GestureDetector(
+          child: Text("press me one more $_count"),
+          onTap: () {
+            setState(() {
+              _count++;
+            });
+          },
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _updateWidget,
