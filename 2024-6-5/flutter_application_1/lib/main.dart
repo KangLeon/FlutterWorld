@@ -2,11 +2,13 @@
  * @Author: JY 397879704@qq.com
  * @Date: 2024-06-05 12:06:06
  * @LastEditors: JY 397879704@qq.com
- * @LastEditTime: 2024-06-06 16:17:15
+ * @LastEditTime: 2024-06-07 16:37:05
  * @FilePath: /flutter_application_1/lib/main.dart
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import 'package:flutter/material.dart';
+import 'package:login_sdk/login_sdk.dart';
+import 'package:login_sdk/pages/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +41,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const LoginPage(),
     );
   }
 }
@@ -66,6 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
   int _count = 0;
   String tips = "";
   bool _toggle = true;
+
+  int comLogin = LoginConfig().addOne(1);
 
   get _dyWidget => _toggle ? const Text("Widget1") : const Text("Widget");
 
