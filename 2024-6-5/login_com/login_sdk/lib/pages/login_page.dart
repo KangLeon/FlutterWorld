@@ -2,11 +2,10 @@
  * @Author: JY 397879704@qq.com
  * @Date: 2024-06-07 16:15:14
  * @LastEditors: JY 397879704@qq.com
- * @LastEditTime: 2024-06-07 23:34:14
+ * @LastEditTime: 2024-06-08 00:57:21
  * @FilePath: /login_sdk/lib/pages/login_page.dart
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  */
-import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -57,11 +56,13 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       resizeToAvoidBottomInset: false,
-      body: Text(
-        '子组件',
-        style: TextStyle(fontSize: 26, color: Colors.black),
+      body: Stack(
+        children: [
+          ..._background,
+          _content,
+        ],
       ),
     );
   }
