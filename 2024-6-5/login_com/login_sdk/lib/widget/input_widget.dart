@@ -1,3 +1,6 @@
+import 'dart:ui';
+
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 //自定义widget，登录输入框
@@ -14,8 +17,36 @@ class InputWidget extends StatelessWidget {
       this.obscureText = false,
       this.keyboardType});
 
+  get _input {
+    return TextField(
+      onChanged: onChanged,
+      obscureText: obscureText,
+      keyboardType: keyboardType,
+      autofocus: !obscureText,
+      cursorColor: Colors.white,
+      style: const TextStyle(
+        fontSize: 17,
+        color: Colors.white,
+        fontWeight: FontWeight.w400,
+      ),
+      decoration: InputDecoration(
+          border: InputBorder.none,
+          hintText: hint,
+          hintStyle: const TextStyle(fontSize: 17, color: Colors.grey)),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      children: [
+        _input,
+        const Divider(
+          color: Colors.white,
+          height: 1,
+          thickness: 0.5,
+        )
+      ],
+    );
   }
 }
