@@ -131,6 +131,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0"
+  login_sdk:
+    dependency: "direct main"
+    description:
+      path: "../login_com/login_sdk"
+      relative: true
+    source: path
+    version: "0.0.1"
   matcher:
     dependency: transitive
     description:
