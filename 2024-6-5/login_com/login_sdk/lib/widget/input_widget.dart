@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 //自定义widget，登录输入框
 class InputWidget extends StatelessWidget {

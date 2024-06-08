@@ -2,13 +2,16 @@
  * @Author: JY 397879704@qq.com
  * @Date: 2024-06-07 16:15:14
  * @LastEditors: JY 397879704@qq.com
- * @LastEditTime: 2024-06-08 11:12:22
+ * @LastEditTime: 2024-06-08 11:23:40
  * @FilePath: /login_sdk/lib/pages/login_page.dart
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  */
 import 'package:flutter/material.dart';
+import 'package:login_sdk/utils/padding_extension.dart';
 import 'package:login_sdk/widget/input_widget.dart';
 import 'package:login_sdk/widget/login_button.dart';
+
+import '../utils/string_util.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -113,7 +116,7 @@ class _LoginPageState extends State<LoginPage> {
     }
     setState(() {
       loginEnable = enable;
-      debugPrint('loginEnable:$loginEnable')
+      debugPrint('loginEnable:$loginEnable');
     });
   }
 
